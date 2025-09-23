@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanjaytharan S - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .profile-photo {
+     width: 140px;
+     height: 140px;
+    border-radius: 50%;
+     object-fit: cover;
+    border: 4px solid #fff;
+     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    display: block;
+     margin: 0 auto 1rem;
+}
+
+    
+
+    h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background: #005e99;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #004d80;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      color: #007acc;
+      border-bottom: 2px solid #cce7ff;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.5rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      background: #e6f1fb;
+      padding: 0.6rem;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .contact-info li {
+      margin-bottom: 0.5rem;
+    }
+
+
+     print {
+      nav, footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="./sanjay.jpg" alt="Profile Photo" class="profile-photo">
+    <h1>Sanjaytharan S</h1>
+    <p>Student | Aspiring Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a driven and ambitious student passionate about marketing and entrepreneurship.
+      I believe in teamwork and clear communication to create impact. Through self-learning and hands-on projects,
+      I continuously build skills to grow academically and professionally.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>2021 - 2023:</strong> Sri Krishna Matriculation Higher Secondary School,Uranipuram,Thanjavur</li>
+      <li><strong>2023 - 2027:</strong> B.E. in Computer Science - KIT-Kalaingarkarunanidhi Institute of Technology, Coimbatore</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Content Creation</li>
+      <li>Computing Skills</li>
+      <li>Designing</li>
+      <li>Communication</li>
+      <li>Copywriting</li>
+      <li>Collaboration</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>C, Python, JAVA Programming Languages - Infosys Springboard</li>
+      <li>linux kernel foundation- RedHat </li>
+      <li>Getting started with python- Coursera</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <p>
+      Won <strong>1st place</strong> in ClipMax Poster Designing event. Participated in multiple web design contests,
+      showcasing creativity and problem-solving.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul class="contact-info">
+      <li><strong>Phone:</strong> +91-7904893974</li>
+      <li><strong>Email:</strong> sanjayrs9751@gmail.com</li>
+      <li><strong>Address:</strong> Kulathiranpattu&(po), Karambakkudi(TK), Pudukkottai(DT), PIN CODE:622302</li>
+    </ul>
+  </section>
+
+</body>
+</html>
